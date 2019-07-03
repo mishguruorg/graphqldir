@@ -16,7 +16,8 @@
     "build": "pkg-build",
     "lint": "pkg-lint",
     "tidy": "pkg-tidy",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "postpublish": "git push origin master --tags"
   },
   "devDependencies": {
     "@mishguru/package": "7.0.1",
